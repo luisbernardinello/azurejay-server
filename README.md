@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="src/assets/azurejay.png" height="250" /></a>
+  <a href="#"><img src="assets/azurejay.png" height="250" /></a>
   <br/>
   <font size="6"><b>AzureJay Server</b></font>
   <br/>
