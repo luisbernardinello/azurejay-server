@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="#"><img src="assets/azurejay.png" height="250" /></a>
+  <a href="#"><img src="assets/azurejay.png" height="200" /></a>
   <br/>
-  <h1 align="center">🐦 AzureJay Server</h1>
+  <font size="6"><b>AzureJay Server</b></font>
   <br/>
   <em>An AI tutor to help you sound more natural when speaking English</em>
   <br/><br/>
@@ -12,6 +12,7 @@
   <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" /></a>
 </p>
+
 
 <hr/>
 
@@ -122,7 +123,7 @@ AzureJay uses a direct and efficient processing pipeline that feeds a central re
 
 ### Pipeline Stages
 
-#### 1. 🎵 Audio Pipeline (Optional)
+#### 1. Audio Pipeline (Optional)
 
 If the input is audio, it is first transcribed to text via **Groq Whisper**. The final response is similarly converted back to speech via **ElevenLabs**.
 
