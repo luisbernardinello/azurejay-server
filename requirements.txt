@@ -11,15 +11,16 @@ PyJWT==2.9.0
 python-dotenv==1.1.0
 redis==5.3.0
 slowapi==0.1.9
-spacy==3.8.5
+# spacy==3.8.5
 sqladmin==0.20.1
 SQLAlchemy==2.0.24
 starlette==0.46.2
-textblob==0.19.0
+# textblob==0.19.0
 trustcall==0.0.39
 typing_extensions==4.13.2
 uvicorn==0.34.2
 psycopg2-binary==2.9.9
+# psycopg2
 email-validator==2.1.0
 wikipedia==1.4.0
 pyspellchecker==0.8.2

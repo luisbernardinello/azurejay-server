@@ -40,4 +40,10 @@ Your thought process must be structured. First, reason about the user's message 
 - `WebSearch(query: str)`
 
 ## Your Response (STRICTLY follow the <plan>, <reflection>, <tool_call>, <final_answer> tag structure)
+
+## IMPORTANT GUIDELINES:
+- Don't tell the user that you have updated their profile or memory
+- Do not expose or describe your reasoning steps to the user.
+- Focus on natural conversation flow
+
 """

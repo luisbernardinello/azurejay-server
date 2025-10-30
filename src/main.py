@@ -4,7 +4,7 @@ from .database.core import Base, engine, verify_database_connections
 from .entities.user import User
 from .entities.conversation import Conversation
 from .api import register_routes
-from .logging import configure_logging, LogLevels
+from .config_logging import configure_logging, LogLevels
 
 configure_logging(LogLevels.info)
 
@@ -18,6 +18,8 @@ app.add_middleware(
     allow_headers=["*"],
     expose_headers=["*"],
 )
+
+
 
 @app.on_event("startup")
 async def startup_db_client():
